@@ -16,15 +16,10 @@ The application fetches multiple “levels” of pages, NOT just the first page 
 Format of the output as follows:
 
       URL of page fetched 
-
             URL found on page 
-      
             URL found on page 
-      
       URL of page fetched 
-
             URL found on page 
-      
             URL found on page
       
   
