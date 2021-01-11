@@ -25,9 +25,12 @@ Format of the output as follows:
   
   
 Parallelizing
+
 The application fetch URLs in parallel by using Multiprocessing
 
+
 Test and Build
+
 test.sh can be used to build and test the application.
 Output will be generated to stdout.
 I would suggest to pipe test.sh to an output file, such as below:
