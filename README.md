@@ -26,7 +26,7 @@ Format of the output as follows:
   
 Parallelizing
 
-The application fetch URLs in parallel by using Multiprocessing
+The application fetch URLs in parallel by using ThreadPoolExecutor from concurrent.futures
 
 
 Test and Build
