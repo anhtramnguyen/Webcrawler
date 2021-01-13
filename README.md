@@ -1,7 +1,7 @@
 # Webcrawler
 Build Your Own Web Crawler
 
-The goal of this project is to build a very simple web crawler which fetches URLs and outputs crawl results to some sort of log or console as the crawl proceeds.
+The goal of this project is to build a very simple web crawler which fetches URLs and outputs crawl results to stdout as the crawl proceeds.
 
 Basic Crawler
 
@@ -13,7 +13,7 @@ The application takes as input a starting URL; it then performs the following:
 
 The application fetches multiple “levels” of pages, NOT just the first page and its immediate children.
 
-Format of the output as follows:
+Format of the output is as follows:
 
       URL of page fetched 
             URL found on page 
@@ -26,13 +26,13 @@ Format of the output as follows:
   
 Parallelizing
 
-The application fetch URLs in parallel by using ThreadPoolExecutor from concurrent.futures
+The application fetches URLs in parallel by using ThreadPoolExecutor from concurrent.futures
 
 
 Test and Build
 
 test.sh can be used to build and test the application.
-Output will be generated to stdout.
-I would suggest to pipe test.sh to an output file, such as below:
+Output are generated to stdout.
+Output can be piped to an output file, such as below:
 
 ./test.sh > out 2>&1
